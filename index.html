@@ -36,7 +36,8 @@
         <div class="row">
             <div class="col-sm-12">
                <p> Drag and drop two csv files which includes details of sprints of a particular month. </p>
-               <p>Select the month.</p> 
+               <p>Select the month.</p>
+               <p>Saturdays and sundays will be unchecked as default.</p>
             </div>
         </div>
         <div class="row m-t-xlg">
@@ -60,6 +61,25 @@
             </div>
             <div class = "pull-left" id = "textRow"></div>
         </div>
+        <div class="row text-center">
+            <div class="col-sm-12" style="margin-top: 30px;">
+                <h5>Select a month!</h5>
+                <select id="list" required>
+                    <option value="31">January</option>
+                    <option value="28">February</option>
+                    <option value="31">March</option>
+                    <option value="30">April</option>
+                    <option value="31">May</option>
+                    <option value="30">June</option>
+                    <option value="31">July</option>
+                    <option value="31">August</option>
+                    <option value="30">September</option>
+                    <option value="31">October</option>
+                    <option value="30">November</option>
+                    <option value="31">December</option>
+                </select>
+            </div>
+        </div>
         <div class="row">
             <div class="col-sm-12" style="margin-top:30px;">
                 <div id="dropZone" class="drop-zone text-center" style=" background-color: #021373;">
@@ -82,25 +102,7 @@
             </div>
         </div>
         
-        <div class="row text-center">
-            <div class="col-sm-12" style="margin-top: 30px;">
-                <h5>Select a month!</h5>
-                <select id="list" required>
-                    <option value="31">January</option>
-                    <option value="28">February</option>
-                    <option value="31">March</option>
-                    <option value="30">April</option>
-                    <option value="31">May</option>
-                    <option value="30">June</option>
-                    <option value="31">July</option>
-                    <option value="31">August</option>
-                    <option value="30">September</option>
-                    <option value="31">October</option>
-                    <option value="30">November</option>
-                    <option value="31">December</option>
-                </select>
-            </div>
-        </div>
+
 
         <div class="row" style="margin-top:30px">
             <div id="fileInfo" class="col-sm-12"></div>
