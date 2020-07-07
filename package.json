@@ -10,7 +10,7 @@
   "author": "Kerem Turk",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^8.0.3",
+    "electron": "^8.2.4",
     "electron-packager": "^14.2.1"
   },
   "dependencies": {
